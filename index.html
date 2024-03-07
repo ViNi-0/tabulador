@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/components/style.css">
     <title>Tabulador VIVO</title>
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <img src="" alt="Logo VIVO">
+    </header>
+
+    <main class="container">
+        <form class="form-wrapper">
+            <div class="input-wrapper -second">
+                <label for="TA">TA</label>
+                <input type="text" id="TA">
+            </div>
+
+            <div class="input-wrapper">
+                <h3>Região</h3>
+                <div class="region">
+                    <input type="radio" name="region" id="Sul">
+                    <label for="Sul">Sul</label>
+
+                    <input type="radio" name="region" id="Sudeste">
+                    <label for="Sudeste">Sudeste</label>
+
+                    <input type="radio" name="region" id="Centro-Oeste">
+                    <label for="Centro-Oeste">Centro-Oeste</label>
+
+                    <input type="radio" name="region" id="Nordeste">
+                    <label for="Nordeste">Nordeste</label>
+
+                    <input type="radio" name="region" id="Norte">
+                    <label for="Norte">Norte</label>
+                </div>
+            </div>
+
+            <div class="input-wrapper ">
+                <h3>Empresa</h3>
+                <div>
+                    <select name="empresa">
+                        <option value="ABILITY">ABILITY</option>
+                        <option value="CETP">CETP</option>
+                        <option value="RS TELECOM">RS TELECOM</option>
+                        <option value="TLSV ENGENHARIA">TLSV ENGENHARIA</option>
+                        <option value="ICOMON">ICOMON</option>
+                        <option value="TEL TELECOMUNICAÇÕES">TEL TELECOMUNICAÇÕES</option>
+                        <option value="TELEMONT">TELEMONT</option>
+                        <option value="COMFICA">COMFICA</option>
+                        <option value="VIA">VIA</option>
+                        <option value="METACOM">METACOM</option>
+                        <option value="TELE PERFORMANCE">TELE PERFORMANCE</option>
+                        <option value="HALLEN">HALLEN</option>
+                        <option value="R2 TELECOM">R2 TELECOM</option>
+                        <option value="TECNOMULTI">TECNOMULTI</option>
+                        <option value="TELEFONICA">TELEFONICA</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-wrapper ">
+                <h3>Nome</h3>
+                <div>
+                    <select name="nome">
+                        <option value="">alexandre</option>
+                        <option value="">b</option>
+                        <option value="">c</option>
+                        <option value="">d</option>
+                        <option value="">e</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-wrapper">
+                <h3>Nivel</h3>
+                <div>
+                    <input type="radio" id="N1">
+                    <label for="N1">N1</label>          
+
+                    <input type="radio" id="N2">
+                    <label for="N2">N2</label>
+                
+                    <input type="radio" id="N3">
+                    <label for="N3">N3</label>
+                
+                    <input type="radio" id="N4">
+                    <label for="N4">N4</label>
+                </div>
+            </div>
+
+        </form>
+
+        <div class="carimbo">
+
+        </div>
+
+    </main>
 </body>
+
 </html>
