@@ -39,7 +39,7 @@
 .form-wrapper .input-wrapper{
     display: flex;
     flex-direction: column;
-    width: 100%;
+
     gap: 5px;
     margin-bottom: 30px;
 }
@@ -90,6 +90,72 @@
     transform: scaleX(1);
 }
 
+.form-wrapper .radio-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
 
+.form-wrapper .radio-wrapper .region,
+.form-wrapper .radio-wrapper .level{
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    gap: 5px;
+}
+
+.form-wrapper .radio-wrapper .level{
+    display: flex;
+    margin: 0 auto;
+}
+
+.form-wrapper .radio-wrapper .region .wrapper,
+.form-wrapper .radio-wrapper .level .wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+/*Radio button style*/
+/*
+    .input{
+  appearance: none;
+  display: block;
+  margin: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: hsla(0, 0%, 100%, .15) 0 1px 1px, inset hsla(0, 0%, 0%, .5) 0 0 0 1px;
+  background-color: hsla(0, 0%, 0%, .2);
+  background-image: radial-gradient( hsla(200,100%,90%,1) 0%, hsla(200,100%,70%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );
+  background-repeat: no-repeat;
+  transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+    transform .25s cubic-bezier(.8, 0, 1, 1);
+  outline: none;
+}
+
+input:checked {
+  transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+    transform .25s cubic-bezier(0, 0, .2, 1);
+ }
+
+.input:active {
+  transform: scale(1.5);
+  transition: transform .1s cubic-bezier(0, 0, .2, 1);
+}
+
+.input, .input:active {
+  background-position: 0 24px;
+}
+
+.input:checked{
+  background-position: 0 0;
+}
+
+.input:checked ~.input,
+.input:checked ~.input:active{
+  background-position: 0 -24px;
+}
+*/
 
 /*ebebeb*/
