@@ -18,7 +18,10 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--medium-blue);
     display: flex;
 }
 
@@ -28,7 +31,8 @@
     padding: 25px 10px;
     position: relative;
     background-color: var(--dark-blue);
-    border: 1px solid var(--black);
+    border: 1px solid var(--aqua-blue);
+    box-shadow: 5px 5px 10px;
     border-radius: 5px;
 }
 
