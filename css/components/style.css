@@ -1,12 +1,12 @@
-:root{
+:root {
     --black: #000004;
     --dark-blue: #002d4c;
-    --medium-blue: #00659d ;
+    --medium-blue: #00659d;
     --light-blue: #00a6fb;
     --aqua-blue: #00f0ff;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
     color: var(--light-blue);
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@
     display: flex;
 }
 
-.form-wrapper{
+.form-wrapper {
     display: flex;
     flex-direction: column;
     padding: 25px 10px;
@@ -36,7 +36,7 @@
     border-radius: 5px;
 }
 
-.form-wrapper .input-wrapper{
+.form-wrapper .input-wrapper {
     display: flex;
     flex-direction: column;
 
@@ -45,12 +45,12 @@
 }
 
 /*Estilo do Input*/
-.form-wrapper .input-wrapper.-second{
+.form-wrapper .input-wrapper.-second {
     position: relative;
     max-width: 40%;
 }
 
-.form-wrapper .input-wrapper.-second .input{
+.form-wrapper .input-wrapper.-second .input {
     width: 100%;
     border: none;
     border-bottom: 2px solid var(--light-blue);
@@ -58,7 +58,7 @@
     outline: none;
 }
 
-.form-wrapper .input-wrapper.-second .label{
+.form-wrapper .input-wrapper.-second .label {
     position: absolute;
     top: 0;
     left: 1;
@@ -67,14 +67,14 @@
     pointer-events: none;
 }
 
-.form-wrapper .input-wrapper.-second .input:focus ~ .label,
-.form-wrapper .input-wrapper.-second .input:valid ~ .label{
+.form-wrapper .input-wrapper.-second .input:focus~.label,
+.form-wrapper .input-wrapper.-second .input:valid~.label {
     top: -16px;
     font-size: 14px;
     color: var(--aqua-blue);
 }
 
-.form-wrapper .input-wrapper.-second .underline{
+.form-wrapper .input-wrapper.-second .underline {
     position: absolute;
     height: 2px;
     width: 100%;
@@ -85,32 +85,32 @@
     background-color: var(--aqua-blue);
 }
 
-.form-wrapper .input-wrapper.-second .input:focus ~ .underline,
-.form-wrapper .input-wrapper.-second .input:valid ~ .underline{
+.form-wrapper .input-wrapper.-second .input:focus~.underline,
+.form-wrapper .input-wrapper.-second .input:valid~.underline {
     transform: scaleX(1);
 }
 
-.form-wrapper .radio-wrapper{
+.form-wrapper .radio-wrapper {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
 .form-wrapper .radio-wrapper .region,
-.form-wrapper .radio-wrapper .level{
+.form-wrapper .radio-wrapper .level {
     display: flex;
     flex-direction: column;
     width: 135px;
-    gap: 5px;
+    gap: 10px;
 }
 
-.form-wrapper .radio-wrapper .level{
+.form-wrapper .radio-wrapper .level {
     display: flex;
     margin: 0 auto;
 }
 
 .form-wrapper .radio-wrapper .region .wrapper,
-.form-wrapper .radio-wrapper .level .wrapper{
+.form-wrapper .radio-wrapper .level .wrapper {
     display: flex;
     gap: 10px;
 }
